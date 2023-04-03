@@ -1,5 +1,0 @@
-conf/mysql/data
-*.swp
-*.log
-*.pid
-*.sock

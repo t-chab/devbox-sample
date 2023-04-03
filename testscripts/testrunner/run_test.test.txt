@@ -1,1 +1,0 @@
-exec devbox run run_test

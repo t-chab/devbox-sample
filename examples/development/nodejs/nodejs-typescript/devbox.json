@@ -1,9 +1,0 @@
-{
-    "packages": [
-        "nodejs-18_x",
-        "nodePackages.typescript"
-    ],
-    "shell": {
-        "init_hook": null
-    }
-}

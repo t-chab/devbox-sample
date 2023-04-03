@@ -1,26 +1,21 @@
 {
   "packages": [
-    "go_1_20",
-    "golangci-lint",
-    "actionlint"
+    "vim",
+    "gh",
+    "glow",
+    "jdk11",
+    "maven",
+    "python311"
   ],
-  "env": {
-    "PATH": "$PATH:$PWD/dist"
-  },
   "shell": {
     "init_hook": [
-      "export \"GOROOT=$(go env GOROOT)\""
+      "clear && PAGER=cat glow README.md"
     ],
     "scripts": {
-      "build": "go build -o dist/devbox cmd/devbox/main.go",
-      "build-linux": "GOOS=linux go build -o dist/devbox-linux cmd/devbox/main.go",
-      "build-linux-amd64": "GOOS=linux GOARCH=amd64 go build -o dist/devbox-linux-amd64 cmd/devbox/main.go",
-      "code": "code .",
-      "lint": "golangci-lint run",
-      "test": "go test -race -cover ./..."
+      "readme": "clear && PAGER=cat glow README.md"
     }
   },
   "nixpkgs": {
-    "commit": "3364b5b117f65fe1ce65a3cdd5612a078a3b31e3"
+    "commit": "f80ac848e3d6f0c12c52758c0f25c10c97ca3b62"
   }
 }

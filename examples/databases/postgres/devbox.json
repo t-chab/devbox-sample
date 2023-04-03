@@ -1,8 +1,0 @@
-{
-  "packages": [
-    "postgresql"
-  ],
-  "shell": {
-    "init_hook": null
-  }
-}

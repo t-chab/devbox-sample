@@ -1,3 +1,0 @@
-exec devbox init
-exec devbox generate dockerfile
-exists Dockerfile

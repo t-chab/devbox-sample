@@ -1,8 +1,0 @@
-{
-  "packages": [
-    "nginx"
-  ],
-  "shell": {
-    "init_hook": null
-  }
-}
